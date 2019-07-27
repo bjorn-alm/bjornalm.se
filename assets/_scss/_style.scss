@@ -563,24 +563,43 @@ body {
 }
 
 .page-footer {
+    padding: 2rem 0;
+
     .footer-sections {
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         color: rgba(255, 255, 255, .5);
         font-size: .9rem;
+        padding: 1rem;
 
         .footer-section {
             flex: 1;
-            padding: 1rem;
 
-            &.left {
-                text-align: left;
-            }
-
-            &.right {
-                text-align: right;
+            &:not(:last-child) {
+                margin-bottom: 10px;
             }
         }
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-me {
+        max-width: 500px;
     }
 }
 
