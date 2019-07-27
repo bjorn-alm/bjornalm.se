@@ -1,0 +1,36 @@
+<div id="menu-wrapper" class="menu-wrapper">
+    <header class="page-header">
+        <nav class="desktop-nav">
+            {% for link in site.data.navigation %}
+                <a href="{{ site.baseurl }}{{ link.url }}" class="nav-item{% if page.url == link.url %} current{% endif %}">
+                    {% if link.image %}
+                        <img id="hero-logo-desktop" src="/assets/img/{{ link.image }}" alt="{{ link.title }}" class="header-logo">
+                    {% else %}
+                        {{ link.title }}
+                    {% endif %}
+                </a>
+            {% endfor %}
+        </nav>
+        <nav class="mobile-nav">
+            <a href="#" class="nav-item">
+                <img id="header-logo-mobile" src="/assets/img/logotype.svg" alt="Björn Alm" class="header-logo">
+            </a>
+            <div id="hamburger" class="menu hamburger">
+                <div class="hamburger__line" data-line="1"></div>
+                <div class="hamburger__line" data-line="2"></div>
+                <div class="hamburger__line" data-line="3"></div>
+            </div>
+        </nav>
+        <div class="navigation-menu" id="navigation-menu">
+            <ul>
+                {% for link in site.data.navigation %}
+                    <li>
+                        <a href="{{ site.baseurl }}{{ link.url }}" class="nav-item{% if page.url == link.url %} current{% endif %}">
+                            {{ link.title }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </header>
+</div>

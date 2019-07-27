@@ -1,0 +1,33 @@
+title: Västerås
+date: '2019-07-26'
+contents:
+  - filename: 2019-07-20-25.jpg
+    width: 8165
+    height: 3523
+    camera: NIKON D500
+    lens: TAMRON SP 24-70mm F/2.8 Di VC USD G2 A032N
+    focal: 46
+    aperture: 8
+    shutter: 4s
+    iso: 50
+    date: 1563661795
+  - filename: 2019-07-20-26.jpg
+    width: 5568
+    height: 3712
+    camera: NIKON D500
+    lens: TAMRON SP 24-70mm F/2.8 Di VC USD G2 A032N
+    focal: 46
+    aperture: 8
+    shutter: 5s
+    iso: 50
+    date: 1563661854
+  - filename: 2019-07-20-27.jpg
+    width: 5550
+    height: 3700
+    camera: NIKON D500
+    lens: TAMRON SP 24-70mm F/2.8 Di VC USD G2 A032N
+    focal: 70
+    aperture: 8
+    shutter: 1.6s
+    iso: 50
+    date: 1563661900

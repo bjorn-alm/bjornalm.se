@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% assign postlimit = 6 %}
+
+{% if site.site_open and page.page_open != false  %}
+    <div class="page-fill">
+        {% include hero.liquid %}
+    </div>
+
+    <div class="page-content">
+        {% if content.size > 3 %}
+            <section class="page-section">
+                <div class="slice">
+                    {{ content }}
+                </div>
+            </section>
+        {% endif %}
+
+        <section class="page-section">
+            <div class="slice">
+                <h3 class="section-header">Fotobloggen</h3>
+                <p>
+                    Här nedan är de senaste inläggen i fotobloggen. Gå till <a href="{{ site.baseurl }}/blog">fotobloggen</a> för att se mer bilder.
+                </p>
+                <p style="margin-top: 3rem;">
+                    <a href="{{ site.baseurl }}/blog" class="button">Till fotobloggen</a>
+                </p>
+            </div>
+            <div class="photo-gallery-list">
+                {% include post-list.liquid limit=postlimit %}
+            </div>
+        </section>
+    </div>
+{% endif %}

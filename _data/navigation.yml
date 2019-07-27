@@ -1,0 +1,7 @@
+- title: Hem
+  url: /
+- title: Om
+  url: /about/
+  image: logotype.svg
+- title: Fotoblogg
+  url: /blog/

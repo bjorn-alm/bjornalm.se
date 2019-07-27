@@ -1,0 +1,27 @@
+title: Björn Alm
+description: Björn Alm, fotograf
+
+host: 0.0.0.0
+
+baseurl:
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+future: false
+show_drafts: false
+featured_posts: 5
+site_open: true
+
+excerpt_separator: <!--more-->
+
+plugins:
+- jekyll-sitemap
+
+sass:
+  sass_dir: assets/_scss
+  style: compressed
+
+exclude: [node_modules, gulpfile.js]
+
+# google_analytics_id: UA-120155-5

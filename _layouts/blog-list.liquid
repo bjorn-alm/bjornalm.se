@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% include minihero.liquid %}
+
+{% if site.site_open and page.page_open != false  %}
+    <div class="page-content">
+        <section class="page-section">
+            <div class="slice">
+                <h3 class="section-header">{{ page.title }}</h3>
+                {% if content.size > 3 %}
+                    {{ content }}
+                {% endif %}
+            </div>
+            <div class="photo-gallery-list">
+                {% include post-list.liquid limit=6 %}
+            </div>
+        </section>
+    </div>
+{% else %}
+    {% include closed.liquid %}
+{% endif %}
