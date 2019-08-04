@@ -344,8 +344,6 @@ function walkPhotos(path, index) {
         postContent.push('layout: post');
         postContent.push('categories:');
         postContent.push('  - Fotoblogg');
-        postContent.push('tags:');
-        postContent.push('  - Tag');
         postContent.push('galleries:');
         postContent.push('  - ' + album);
         postContent.push('---');
