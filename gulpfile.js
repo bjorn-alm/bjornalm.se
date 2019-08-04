@@ -188,7 +188,7 @@ function clearInbox() {
  * Removing .DS_Store files
  */
 function prepareInbox() {
-    return shell.task(['find . -name .DS_Store -type f -delete']);
+    // return shell.task(['find . -name .DS_Store -type f -delete']);
 }
 
 /**
