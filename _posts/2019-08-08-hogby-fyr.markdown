@@ -1,0 +1,9 @@
+---
+title: Högby fyr
+date: 2019-08-08
+layout: post
+categories:
+  - Fotoblogg
+galleries:
+  - 2019-08-08-hogby-fyr
+---
