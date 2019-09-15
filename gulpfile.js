@@ -25,7 +25,8 @@ const concatCss = require('gulp-concat-css');
 const merge = require('merge-stream');
 
 const slugOptions = {
-    lower: true
+    lower: true,
+    remove: /_/g
 };
 
 /**
@@ -266,6 +267,7 @@ function walkPhotos(path, index) {
 
             // So split on / and take the last component for the filename.
             let file = photo.split('\\').pop();
+
             const filePath = file.split('.');
             file = slug(filePath[0], slugOptions) + '.' + filePath[1];
 
