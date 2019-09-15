@@ -265,7 +265,7 @@ function walkPhotos(path, index) {
             const photo = photos[j];
 
             // So split on / and take the last component for the filename.
-            let file = photo.split('/').pop();
+            let file = photo.split('\\').pop();
             const filePath = file.split('.');
             file = slug(filePath[0], slugOptions) + '.' + filePath[1];
 
