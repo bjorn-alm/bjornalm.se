@@ -196,7 +196,7 @@ function prepareInbox() {
  */
 function handleInbox() {
     return gulp.src('./assets/photos/inbox/**/*.{jpg,jpeg}', {
-        nocase: true
+        nocase: false
     })
 
         // Reading photo data
