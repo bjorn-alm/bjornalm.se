@@ -10,18 +10,17 @@ highlighter: rouge
 permalink: /:year/:month/:day/:title/
 future: false
 show_drafts: false
-featured_posts: 5
+featured_posts: 6
 site_open: true
 
 excerpt_separator: <!--more-->
 
 plugins:
-- jekyll-sitemap
+  - jekyll-sitemap
 
 sass:
   sass_dir: assets/_scss
   style: compressed
 
 exclude: [node_modules, gulpfile.js]
-
 # google_analytics_id: UA-120155-5
