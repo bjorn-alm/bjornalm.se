@@ -1,5 +1,5 @@
 ---
-title: Gruvan Monsols
+title: Gruvan Månsols
 date: 2019-03-30
 layout: post
 categories:
