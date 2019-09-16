@@ -1,9 +1,0 @@
----
-title: Test
-date: 2019-09-15
-layout: post
-categories:
-  - Fotoblogg
-galleries:
-  - 2019-09-15-test
----
