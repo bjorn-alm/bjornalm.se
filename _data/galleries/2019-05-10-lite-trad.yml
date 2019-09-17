@@ -1,0 +1,283 @@
+title: Lite träd
+date: '2019-05-10'
+contents:
+  - filename: 2019-01-20-1.jpg
+    width: 2848
+    height: 4089
+    camera: SONY SLT-A58
+    lens: DT 17-70mm F2.8-4
+    focal: 70
+    aperture: 8
+    shutter: 1/125
+    iso: 200
+    date: 1547992598
+  - filename: 2019-03-30-2.jpg
+    width: 4732
+    height: 3123
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 18
+    aperture: 11
+    shutter: 1/60
+    iso: 200
+    date: 1553954171
+  - filename: 2019-03-30-3.jpg
+    width: 4000
+    height: 6000
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 18
+    aperture: 11
+    shutter: 1/80
+    iso: 200
+    date: 1553954285
+  - filename: 2019-04-14-4.jpg
+    width: 4000
+    height: 6000
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 55
+    aperture: 13
+    shutter: 1/40
+    iso: 800
+    date: 1555251310
+  - filename: 2019-04-14-5.jpg
+    width: 4000
+    height: 6000
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 52.7
+    aperture: 9
+    shutter: 1/110
+    iso: 200
+    date: 1555251830
+  - filename: 2019-04-14-6.jpg
+    width: 5137
+    height: 3485
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 32.9
+    aperture: 9
+    shutter: 1/110
+    iso: 200
+    date: 1555251849
+  - filename: 2019-04-14-7.jpg
+    width: 4095
+    height: 3459
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 18
+    aperture: 10
+    shutter: 1/60
+    iso: 200
+    date: 1555253182
+  - filename: 2019-04-22-8.jpg
+    width: 4000
+    height: 4806
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 26.5
+    aperture: 9
+    shutter: 1/25
+    iso: 200
+    date: 1555960178
+  - filename: 2019-04-28-9.jpg
+    width: 6000
+    height: 4000
+    camera: FUJIFILM X-T20
+    lens: XF35mmF2 R WR
+    focal: 35
+    aperture: 8
+    shutter: 1/170
+    iso: 200
+    date: 1556442483
+  - filename: 2019-04-28-10.jpg
+    width: 6000
+    height: 4000
+    camera: FUJIFILM X-T20
+    lens: XF35mmF2 R WR
+    focal: 35
+    aperture: 5.6
+    shutter: 1/160
+    iso: 200
+    date: 1556443645
+  - filename: 2019-04-28-11.jpg
+    width: 6000
+    height: 4000
+    camera: FUJIFILM X-T20
+    lens: XF35mmF2 R WR
+    focal: 35
+    aperture: 16
+    shutter: 1/20
+    iso: 200
+    date: 1556444171
+  - filename: 2019-04-28-12.jpg
+    width: 4000
+    height: 6000
+    camera: FUJIFILM X-T20
+    lens: XF35mmF2 R WR
+    focal: 35
+    aperture: 8
+    shutter: 1/160
+    iso: 200
+    date: 1556446640
+  - filename: 2019-05-05-13.jpg
+    width: 6000
+    height: 4000
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 55
+    aperture: 6.4
+    shutter: 1/120
+    iso: 200
+    date: 1557082455
+  - filename: 2019-06-25-15.jpg
+    width: 4000
+    height: 4448
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 34.3
+    aperture: 8
+    shutter: 1/60
+    iso: 500
+    date: 1561490820
+  - filename: 2019-06-25-16.jpg
+    width: 4455
+    height: 4000
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 22.3
+    aperture: 8
+    shutter: 1/60
+    iso: 1250
+    date: 1561491371
+  - filename: 2019-06-25-17.jpg
+    width: 5276
+    height: 3096
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 32.9
+    aperture: 8
+    shutter: 1/60
+    iso: 250
+    date: 1561494564
+  - filename: 2019-07-11-18.jpg
+    width: 4000
+    height: 5085
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 22.3
+    aperture: 11
+    shutter: 1/55
+    iso: 200
+    date: 1562850998
+  - filename: 2019-07-20-19.jpg
+    width: 6000
+    height: 4000
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 55
+    aperture: 8
+    shutter: 1/40
+    iso: 200
+    date: 1563652581
+  - filename: 2019-08-03-20.jpg
+    width: 4000
+    height: 6000
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 18
+    aperture: 8
+    shutter: 1/60
+    iso: 200
+    date: 1564856906
+  - filename: 2019-08-03-21.jpg
+    width: 4000
+    height: 6000
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 18
+    aperture: 8
+    shutter: 1/60
+    iso: 200
+    date: 1564857572
+  - filename: 2019-08-07-22.jpg
+    width: 6000
+    height: 3193
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 39
+    aperture: 8
+    shutter: 1/3
+    iso: 200
+    date: 1565211096
+  - filename: 2019-08-09-23.jpg
+    width: 6000
+    height: 4000
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 23.3
+    aperture: 8
+    shutter: 1/5
+    iso: 200
+    date: 1565367202
+  - filename: 2019-08-09-24.jpg
+    width: 6000
+    height: 4000
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 22.3
+    aperture: 7.1
+    shutter: 1/15
+    iso: 200
+    date: 1565367383
+  - filename: 2019-08-09-25.jpg
+    width: 4000
+    height: 6000
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 22.3
+    aperture: 7.1
+    shutter: 1/250
+    iso: 200
+    date: 1565368426
+  - filename: 2019-08-09-26.jpg
+    width: 6000
+    height: 4000
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 23.3
+    aperture: 6.4
+    shutter: 1/200
+    iso: 200
+    date: 1565368685
+  - filename: 2019-08-15-27.jpg
+    width: 5402
+    height: 3230
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 34.3
+    aperture: 11
+    shutter: 1/220
+    iso: 200
+    date: 1565867664
+  - filename: 2019-08-15-28.jpg
+    width: 6000
+    height: 4000
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 22.3
+    aperture: 11
+    shutter: 1/300
+    iso: 200
+    date: 1565867672
+  - filename: 2019-08-31-29.jpg
+    width: 6000
+    height: 4000
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 18
+    aperture: 9
+    shutter: 1/300
+    iso: 200
+    date: 1567247413
