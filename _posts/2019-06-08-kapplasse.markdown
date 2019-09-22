@@ -1,9 +1,9 @@
 ---
 title: Kapplasse
-date: 2019-6-08
+date: 2019-06-08
 layout: post
 categories:
   - Fotoblogg
 galleries:
-  - 2019-6-08-kapplasse
+  - 2019-06-08-kapplasse
 ---

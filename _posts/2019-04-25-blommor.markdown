@@ -1,9 +1,9 @@
 ---
-title: lBlommor
+title: Blommor
 date: 2019-04-25
 layout: post
 categories:
   - Fotoblogg
 galleries:
-  - 2019-04-25-lblommor
+  - 2019-04-25-blommor
 ---

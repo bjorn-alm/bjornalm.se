@@ -1,9 +1,0 @@
----
-title: Rubrik - kopia
-date: 2019-00-00
-layout: post
-categories:
-  - Fotoblogg
-galleries:
-  - 2019-00-00-rubrik-kopia
----
