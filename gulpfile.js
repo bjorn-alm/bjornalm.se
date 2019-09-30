@@ -123,7 +123,7 @@ function fonts(done) {
  * Handles images
  */
 function images() {
-    return gulp.src('./src/assets/img/**/*.{jpg,jpeg,gif,png,svg}')
+    return gulp.src('./src/assets/img/**/*.{jpg,jpeg,gif,png,svg,JPG,JPEG}')
         .pipe(plumber())
         .pipe(imagemin([imagemin.jpegtran({
             progressive: true
@@ -146,7 +146,7 @@ function browsersyncReload(done) {
 function siteWatch() {
     gulp.watch('./src/assets/scss/**/*.scss', css);
     gulp.watch('./src/assets/js/**/*.js', javascript);
-    gulp.watch('./src/assets/img/**/*.{jpg,jpeg,gif,png,svg}', images);
+    gulp.watch('./src/assets/img/**/*.{jpg,jpeg,gif,png,svg,JPG,JPEG}', images);
     gulp.watch('./src/**/*.{htm,html,md,markdown,txt}', content);
 }
 
@@ -166,7 +166,7 @@ function siteServe() {
 
     gulp.watch('./src/assets/scss/**/*.scss', gulp.series(css, browsersyncReload));
     gulp.watch('./src/assets/js/**/*.js', gulp.series(javascript, browsersyncReload));
-    gulp.watch('./src/assets/img/**/*.{jpg,jpeg,gif,png,svg}', gulp.series(images, browsersyncReload));
+    gulp.watch('./src/assets/img/**/*.{jpg,jpeg,gif,png,svg,JPG,JPEG}', gulp.series(images, browsersyncReload));
     gulp.watch('./src/**/*.{htm,html,md,markdown,txt}', gulp.series(content, browsersyncReload));
 }
 
