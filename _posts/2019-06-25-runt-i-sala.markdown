@@ -1,9 +1,9 @@
 ---
-title: Runt i Sla
+title: Runt i Sala
 date: 2019-06-25
 layout: post
 categories:
   - Fotoblogg
 galleries:
-  - 2019-06-25-runt-i-sla
+  - 2019-06-25-runt-i-sala
 ---
