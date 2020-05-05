@@ -30,8 +30,8 @@ const slugOptions = {
 };
 
 /**
- * Handles content files such as html, markdown and text files
- */
+* Handles content files such as html, markdown and text files
+*/
 function content() {
     // HTML
     const html = gulp.src('./src/**/*.{htm,html}')
@@ -53,8 +53,8 @@ function content() {
 }
 
 /**
- * Handles javascript files
- */
+* Handles javascript files
+*/
 function javascript() {
     // Building vendors file
     const vendorJs = gulp.src('./src/assets/js/vendor/**/*.js')
@@ -85,8 +85,8 @@ function javascript() {
 }
 
 /**
- * Handles Sass files and compiles them to CSS
- */
+* Handles Sass files and compiles them to CSS
+*/
 function css() {
     return gulp.src('./src/assets/scss/**/*.scss')
         .pipe(plumber({
@@ -112,16 +112,16 @@ function css() {
 }
 
 /**
- * Fonts
- */
+* Fonts
+*/
 function fonts(done) {
     return gulp.src('./src/assets/fonts/**/*.*')
         .pipe(gulp.dest('./_site/assets/fonts/'));
 }
 
 /**
- * Handles images
- */
+* Handles images
+*/
 function images() {
     return gulp.src('./src/assets/img/**/*.{jpg,jpeg,gif,png,svg,JPG,JPEG}')
         .pipe(plumber())
@@ -132,17 +132,17 @@ function images() {
 }
 
 /**
- * Browser sync browser(s) reloading
- */
+* Browser sync browser(s) reloading
+*/
 function browsersyncReload(done) {
     browsersync.reload();
     done();
 }
 
 /**
- * Gulp watch
- * Watching for file changes
- */
+* Gulp watch
+* Watching for file changes
+*/
 function siteWatch() {
     gulp.watch('./src/assets/scss/**/*.scss', css);
     gulp.watch('./src/assets/js/**/*.js', javascript);
@@ -151,9 +151,9 @@ function siteWatch() {
 }
 
 /**
- * Gulp serve
- * Watching for file changes and running browser sync
- */
+* Gulp serve
+* Watching for file changes and running browser sync
+*/
 function siteServe() {
     browsersync.init({
         notify: false,
@@ -171,30 +171,30 @@ function siteServe() {
 }
 
 /**
- * Cleanup
- * Deletes the _site folder
- */
+* Cleanup
+* Deletes the _site folder
+*/
 function cleanup() {
     return del(['./_site/', './src/assets/css/']);
 }
 
 /**
- * Deletes all photos in inbox
- */
+* Deletes all photos in inbox
+*/
 function clearInbox() {
     return del(['./assets/photos/inbox/**/*']);
 }
 
 /**
- * Removing .DS_Store files
- */
+* Removing .DS_Store files
+*/
 function prepareInbox() {
     // return shell.task(['find . -name .DS_Store -type f -delete']);
 }
 
 /**
- * Building photo gallery from the files in the inbox
- */
+* Building photo gallery from the files in the inbox
+*/
 function handleInbox() {
     return gulp.src('./assets/photos/inbox/**/*.{jpg,jpeg}', {
         nocase: false
@@ -242,8 +242,8 @@ function handleInbox() {
 };
 
 /**
- * Scanning all original photos and creating data files
- */
+* Scanning all original photos and creating data files
+*/
 function walkPhotos(path, index) {
     const directory = fs.readdirSync(path);
 
@@ -358,8 +358,8 @@ function walkPhotos(path, index) {
 };
 
 /**
- * Building gallery index
- */
+* Building gallery index
+*/
 function buildGalleryIndex(done) {
     let index = {};
     const generatedIndex = {};
@@ -370,8 +370,8 @@ function buildGalleryIndex(done) {
 };
 
 /**
- * Adds a sub folder to the path object
- */
+* Adds a sub folder to the path object
+*/
 function createImgPath(path) {
     path.dirname = slug(path.dirname.split('/').pop(), slugOptions);
     path.basename = slug(path.basename, slugOptions);
