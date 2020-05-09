@@ -1,0 +1,23 @@
+title: Test
+date: '2020-05-09'
+contents:
+  - filename: 2020-01-12-1.jpg
+    width: 6000
+    height: 4000
+    camera: FUJIFILM X-T20
+    lens: XF55-200mmF3.5-4.8 R LM OIS
+    focal: 200
+    aperture: 5.6
+    shutter: 1/30
+    iso: 200
+    date: 1578839906
+  - filename: 2020-03-22-1.jpg
+    width: 4240
+    height: 2832
+    camera: FUJIFILM X-T20
+    lens: XF18-55mmF2.8-4 R LM OIS
+    focal: 21.4
+    aperture: 11
+    shutter: 1/800
+    iso: 200
+    date: 1584885458
