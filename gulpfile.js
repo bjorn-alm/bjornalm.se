@@ -125,7 +125,7 @@ function fonts(done) {
 function images() {
     return gulp.src('./src/assets/img/**/*.{jpg,jpeg,gif,png,svg,JPG,JPEG}')
         .pipe(plumber())
-        .pipe(imagemin([imagemin.mozjpeg({
+        .pipe(imagemin([imagemin.jpegtran({
             progressive: true
         })]))
         .pipe(gulp.dest('./_site/assets/img/'));
@@ -207,7 +207,7 @@ function handleInbox() {
         // .pipe(rename((path) => {
         //     createImgPath(path);
         // }))
-        // .pipe(imagemin([imagemin.mozjpeg({ progressive: true })]))
+        // .pipe(imagemin([imagemin.jpegtran({ progressive: true })]))
         // .pipe(gulp.dest('./assets/photos/galleries/original/'))
 
         // Large size
@@ -217,7 +217,7 @@ function handleInbox() {
         .pipe(resize({
             width: 1500
         }))
-        .pipe(imagemin([imagemin.mozjpeg({
+        .pipe(imagemin([imagemin.jpegtran({
             progressive: true
         })]))
         .pipe(gulp.dest('./assets/photos/galleries/'))
@@ -227,7 +227,7 @@ function handleInbox() {
         //     createImgPath(path);
         // }))
         // .pipe(resize({ width: 800 }))
-        // .pipe(imagemin([imagemin.mozjpeg({ progressive: true })]))
+        // .pipe(imagemin([imagemin.jpegtran({ progressive: true })]))
         // .pipe(gulp.dest('./assets/photos/galleries/medium/'))
 
         // Thumb
@@ -235,7 +235,7 @@ function handleInbox() {
         //     createImgPath(path);
         // }))
         // .pipe(resize({ width: 600, height: 600, crop: true, upscale: true }))
-        // .pipe(imagemin([imagemin.mozjpeg({ progressive: true })]))
+        // .pipe(imagemin([imagemin.jpegtran({ progressive: true })]))
         // .pipe(gulp.dest('./assets/photos/galleries/thumbs/'))
 
         ;
