@@ -1,0 +1,9 @@
+---
+title: Oskar
+date: 2020-05-09
+layout: post
+categories:
+  - Fotoblogg
+galleries:
+  - 2020-05-09-oskar
+---
