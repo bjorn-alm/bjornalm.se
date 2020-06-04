@@ -57,29 +57,30 @@ function content() {
 */
 function javascript() {
     // Building vendors file
-    const vendorJs = gulp.src('./src/assets/js/vendor/**/*.js')
+    const vendorJs = gulp.src(['./assets/js/vendor/**/*.js'])
         .pipe(plumber())
-        .pipe(concat('vendor.js'))
-        .on('error', function (err) {
-            console.log(err.toString());
-        })
-        .pipe(rename({
-            suffix: '.min',
-        }))
-        .pipe(gulp.dest('./_site/assets/js/'));
-
-    // Building app file
-    const appJs = gulp.src('./src/assets/js/app/**/*.js')
-        .pipe(plumber())
-        .pipe(concat('app.js'))
+        // .pipe(concat('vendor.js'))
         .pipe(uglify())
         .on('error', function (err) {
             console.log(err.toString());
         })
-        .pipe(rename({
-            suffix: '.min',
-        }))
-        .pipe(gulp.dest('./_site/assets/js/'));
+        // .pipe(rename({
+        //     suffix: '.min',
+        // }))
+        .pipe(gulp.dest('./assets/js/'));
+
+    // Building app file
+    const appJs = gulp.src(['./assets/js/app/**/*.js'])
+        .pipe(plumber())
+        // .pipe(concat('app.js'))
+        .pipe(uglify())
+        .on('error', function (err) {
+            console.log(err.toString());
+        })
+        // .pipe(rename({
+        //     suffix: '.min',
+        // }))
+        .pipe(gulp.dest('./assets/js/'));
 
     return merge(vendorJs, appJs);
 }
@@ -125,7 +126,7 @@ function fonts(done) {
 function images() {
     return gulp.src('./src/assets/img/**/*.{jpg,jpeg,gif,png,svg,JPG,JPEG}')
         .pipe(plumber())
-        .pipe(imagemin([imagemin.jpegtran({
+        .pipe(imagemin([imagemin.mozjpeg({
             progressive: true
         })]))
         .pipe(gulp.dest('./_site/assets/img/'));
@@ -175,7 +176,7 @@ function siteServe() {
 * Deletes the _site folder
 */
 function cleanup() {
-    return del(['./_site/', './src/assets/css/']);
+    return del(['./_site/', './assets/js/*.js', '!./assets/js/app/', '!./assets/js/vendor/']);
 }
 
 /**
@@ -207,7 +208,7 @@ function handleInbox() {
         // .pipe(rename((path) => {
         //     createImgPath(path);
         // }))
-        // .pipe(imagemin([imagemin.jpegtran({ progressive: true })]))
+        // .pipe(imagemin([imagemin. mozjpeg({ progressive: true })]))
         // .pipe(gulp.dest('./assets/photos/galleries/original/'))
 
         // Large size
@@ -217,7 +218,7 @@ function handleInbox() {
         .pipe(resize({
             width: 1500
         }))
-        .pipe(imagemin([imagemin.jpegtran({
+        .pipe(imagemin([imagemin.mozjpeg({
             progressive: true
         })]))
         .pipe(gulp.dest('./assets/photos/galleries/'))
@@ -227,7 +228,7 @@ function handleInbox() {
         //     createImgPath(path);
         // }))
         // .pipe(resize({ width: 800 }))
-        // .pipe(imagemin([imagemin.jpegtran({ progressive: true })]))
+        // .pipe(imagemin([imagemin. mozjpeg({ progressive: true })]))
         // .pipe(gulp.dest('./assets/photos/galleries/medium/'))
 
         // Thumb
@@ -235,7 +236,7 @@ function handleInbox() {
         //     createImgPath(path);
         // }))
         // .pipe(resize({ width: 600, height: 600, crop: true, upscale: true }))
-        // .pipe(imagemin([imagemin.jpegtran({ progressive: true })]))
+        // .pipe(imagemin([imagemin. mozjpeg({ progressive: true })]))
         // .pipe(gulp.dest('./assets/photos/galleries/thumbs/'))
 
         ;

@@ -22,6 +22,15 @@ sass:
   sass_dir: assets/_scss
   style: compressed
 
-exclude: [node_modules, gulpfile.js]
+exclude:
+  [
+    node_modules,
+    gulpfile.js,
+    package.json,
+    package-lock.json,
+    assets/_scss,
+    assets/js/app/,
+    assets/js/vendor/,
+  ]
 
 google_analytics_id: UA-120155-9
