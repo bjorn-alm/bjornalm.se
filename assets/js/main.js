@@ -272,7 +272,6 @@ $(function () {
     // lazySizes background image support
     document.addEventListener('lazybeforeunveil', function (e) {
         var bg = e.target.getAttribute('data-bg');
-        console.log(e);
         if (bg) {
             e.target.style.backgroundImage = 'url(' + bg + ')';
         }
