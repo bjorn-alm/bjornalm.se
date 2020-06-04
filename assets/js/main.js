@@ -262,4 +262,20 @@ $(function () {
         headerLogo.css('opacity', headerLogoOpacity);
     }
 
+    // lazySizes options
+    window.lazySizesConfig = window.lazySizesConfig || {};
+    window.lazySizesConfig.loadHidden = false;
+    window.lazySizesConfig.requireJs = function (modules, cb) {
+        window.require(modules, cb);
+    };
+
+    // lazySizes background image support
+    document.addEventListener('lazybeforeunveil', function (e) {
+        var bg = e.target.getAttribute('data-bg');
+        console.log(e);
+        if (bg) {
+            e.target.style.backgroundImage = 'url(' + bg + ')';
+        }
+    });
+
 });

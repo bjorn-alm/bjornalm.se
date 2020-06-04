@@ -12,7 +12,7 @@
                     {% comment %} <div class="photo-wrapper" style="padding-bottom: {{ ratio_height }}%;"> {% endcomment %}
                     <div class="photo-wrapper">
                         <div class="photo-poster">
-                            <div class="photo" style="background-image: url({{ site.baseurl }}/assets/photos/galleries/{{ gallerySlug }}/{{ photo.filename }}); padding-bottom: {{ ratio_height }}%;">
+                            <div class="photo lazyload" data-bg="{{ site.baseurl }}/assets/photos/galleries/{{ gallerySlug }}/{{ photo.filename }}" style="padding-bottom: {{ ratio_height }}%;">
                                 <a href="#" class="photo__data-trigger">
                                     <svg version="1.1" class="camera-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" xml:space="preserve">
                                         <g>
