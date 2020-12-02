@@ -1,0 +1,9 @@
+---
+title: BW Drama
+date: 2020-08-12
+layout: post
+categories:
+  - Fotoblogg
+galleries:
+  - 2020-08-12-bw-drama
+---
